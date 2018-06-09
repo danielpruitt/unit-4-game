@@ -1,0 +1,16 @@
+body {
+    background:url(../css/images/footer_lodyas.png);
+}
+
+.crystals{
+    display:flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.crystal {
+
+    height:200px;
+    width:200px;
+
+}
