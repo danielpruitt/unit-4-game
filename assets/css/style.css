@@ -5,7 +5,7 @@ body {
 .crystals{
     display:flex;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 
 .crystal {
