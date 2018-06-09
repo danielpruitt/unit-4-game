@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <title>Crystal Collector</title>
@@ -19,7 +21,7 @@
 
     <div>
   
-        <div>
+        <div class="rules">
             <h3>How to Play:</h3>
             <p>You will be given a random number at the start of the game</p>
             <p>There are four crystals below. By clickign on a crystal you will add a specific amount of points to you total score.</p>
@@ -28,13 +30,13 @@
         </div>
     
 
-        <h2 id="result"> </h2>
+        <h2 id="result" class="rules target"> </h2>
         <div class="crystals"></div>
         
-            <div>
-                <h3>Your Guesses: <div id="userGuess"></div></h3>
-                <p>Wins: <div id="wins"></div></p>
-                <p>Losses: <div id="losses"></div></p>
+            <div class="rules">
+                <h2>Your Guesses: <div id="userGuess"></div></h2>
+                <h4>Wins: <div id="wins"></div></h4>
+                <h4>Losses: <div id="losses"></div></h4>
             </div>
 
     </div>

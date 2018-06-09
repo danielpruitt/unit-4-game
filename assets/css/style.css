@@ -14,3 +14,18 @@ body {
     width:200px;
 
 }
+
+.head, .rules {
+    background:#7e7e7e;
+    color:#ffffff;
+    box-shadow: 4px 3px #d55e2d;
+    align-content: center;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.target{
+    height:50px;
+    align-content: center;
+    padding-top:25px
+}
